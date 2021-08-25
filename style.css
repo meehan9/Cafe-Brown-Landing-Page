@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    background-color: #DCDCDC;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header {
+    width: 100%;
+    background-color: #5F4C55;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 70%;
+    margin: 0 auto;
+    /* background: #DCDCDC; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.nav__links {
+
+    display: flex;
+    /* background-color: violet; */
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    /* margin-top: 3rem; */
+}
+
+.logo {
+    letter-spacing: 2px;
+    transform: translateY(-.5rem);
+}
+
+.logo h2 span {
+    color: thistle;
+}
+
+.logo h2 .cup {
+    font-size: 4rem;
+}
+
+section {
+    width: 70%;
+    margin: 10rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content__left {
+    flex-basis: 40%;
+}
+
+.content__left h1 {
+    color: #27221D;
+    font-size: 7rem;
+    line-height: 1;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.content__left h2 {
+    color: #473d34;
+    font-size: 5rem;
+    line-height: 1;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.content__left p {
+    color: #473d34;
+    font-size: 2rem;
+    line-height: 2;
+    /* font-weight: bold; */
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.content__left button {
+    padding: 2rem 4rem;
+    border: none;
+    border-radius: 5rem;
+    color: #EFEFEF;
+    background-color: #27221D;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+/* .content__right {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .content__right img {
+    width: 55rem;
+    justify-content: flex-start;
+    margin-left: 20rem;
+    z-index: 1;
+} */
+
+.content__right {
+    flex-basis: 20%;
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background: #5F4C55;
+}
+
+.content__right img {
+    width: 90rem;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+
+/* .box {
+    position: absolute;
+    width: 110rem;
+    height: 60rem;
+    background-color: #5F4C55;
+    z-index: -1;
+    right: 0;
+    top: 25%;
+}  */
+
+
